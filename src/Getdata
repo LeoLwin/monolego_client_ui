@@ -1,0 +1,175 @@
+const GetData = () => {
+  return {
+    code: "200",
+    status: "OK",
+    message: "No Error",
+    data: {
+      by: [
+        {
+          id: 22,
+          sku: "TSHIRT001",
+          product_name: "daisy",
+          stock_from_production: 5,
+          initial_stock: 5,
+          stock_available: 3,
+          stock_adjustment: 5,
+          stock_inorder: 0,
+          stock_soldout: 1,
+          stock_onhold: 1,
+          onhold_by: 0,
+          price: 17500,
+          size: "M",
+          color: "White",
+          remarks: "fjkdsfhjsdf",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-daisy-4k_wallpaper_for_pc_and_mobile.jfif",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-daisy-download.jfif",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-daisy-Modern_Office_Library_Bookcase___Professional_Virtual_Zoom_Background.jfif",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-daisy-photo_2024-11-12_14-16-31.jpg",
+          created_at: "2025-03-12-09h-45m-04s",
+        },
+        {
+          id: 21,
+          sku: "TSHIRT002",
+          product_name: "APK1",
+          stock_from_production: 10,
+          initial_stock: 10,
+          stock_available: 2,
+          stock_adjustment: 10,
+          stock_inorder: 0,
+          stock_soldout: 3,
+          stock_onhold: 5,
+          onhold_by: 0,
+          price: 14500,
+          size: "L",
+          color: "black",
+          remarks: "dd",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK1-TSHIRT002-ddde-image_3.jpg",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK1-samsung-memory-qTl9LjV6Gz0-unsplash.jpg",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK1-samsung-memory-qTl9LjV6Gz0-unsplash.jpg",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK1-logan-weaver-lgnwvr-5KK5h4WvkXQ-unsplash.jpg",
+          created_at: "2025-02-16-22h-47m-08s",
+        },
+        {
+          id: 19,
+          sku: "TSHIRT002",
+          product_name: "APK2",
+          stock_from_production: 10,
+          initial_stock: 10,
+          stock_available: 3,
+          stock_adjustment: 20,
+          stock_inorder: 0,
+          stock_soldout: 3,
+          stock_onhold: 4,
+          onhold_by: 0,
+          price: 16500,
+          size: "L",
+          color: "black",
+          remarks: "dd",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK2-ruth-leong-cYnrt5kjF5I-unsplash.jpg",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK2-TSHIRT002-ddde-image_3.jpg",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK2-samsung-memory-qTl9LjV6Gz0-unsplash.jpg",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK2-logan-weaver-lgnwvr-5KK5h4WvkXQ-unsplash.jpg",
+          created_at: "2025-02-16-22h-44m-01s",
+        },
+        {
+          id: 18,
+          sku: "TSHIRT002",
+          product_name: "APK",
+          stock_from_production: 1,
+          initial_stock: 1,
+          stock_available: 1,
+          stock_adjustment: 0,
+          stock_inorder: 0,
+          stock_soldout: 0,
+          stock_onhold: 0,
+          onhold_by: 0,
+          price: 15000,
+          size: "L",
+          color: "black",
+          remarks: "APP",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK-4a6431248482d86082a5d898cca218c5.png",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK-4a6431248482d86082a5d898cca218c5.png",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK-4a6431248482d86082a5d898cca218c5.png",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT002-APK-4a6431248482d86082a5d898cca218c5.png",
+          created_at: "2025-02-16-22h-15m-16s",
+        },
+        {
+          id: 17,
+          sku: "TSHIRT001",
+          product_name: "Testing3",
+          stock_from_production: 4,
+          initial_stock: 4,
+          stock_available: 1,
+          stock_adjustment: 0,
+          stock_inorder: 0,
+          stock_soldout: 1,
+          stock_onhold: 2,
+          onhold_by: 0,
+          price: 14500,
+          size: "M",
+          color: "White",
+          remarks: "ddddd",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing3-ruth-leong-cYnrt5kjF5I-unsplash.jpg",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing3-ruth-leong-cYnrt5kjF5I-unsplash.jpg",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing3-TSHIRT002-ddde-image_3.jpg",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing3-logan-weaver-lgnwvr-5KK5h4WvkXQ-unsplash.jpg",
+          created_at: "2025-02-15-23h-01m-44s",
+        },
+        {
+          id: 13,
+          sku: "TSHIRT001",
+          product_name: "Testing2",
+          stock_from_production: 3,
+          initial_stock: 3,
+          stock_available: 1,
+          stock_adjustment: 4,
+          stock_inorder: 0,
+          stock_soldout: 0,
+          stock_onhold: 2,
+          onhold_by: 0,
+          price: 14500,
+          size: "M",
+          color: "White",
+          remarks: "Testing",
+          img_1:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing2-TSHIRT002-ddde-image_3.jpg",
+          img_2:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing2-samsung-memory-qTl9LjV6Gz0-unsplash.jpg",
+          img_3:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing2-logan-weaver-lgnwvr-5KK5h4WvkXQ-unsplash.jpg",
+          img_4:
+            "http://150.95.81.134:7000/uploads/TSHIRT001-Testing2-ruth-leong-cYnrt5kjF5I-unsplash.jpg",
+          created_at: "2025-02-15-22h-56m-02s",
+        },
+      ],
+      pagination: {
+        current: 1,
+        limit: 6,
+        rowsPerPage: 2,
+        total: 7,
+      },
+    },
+  };
+};
+
+export default GetData
